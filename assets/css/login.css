@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); 
+}
+nav{
+    background-image: url(../images/header-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}

@@ -1,0 +1,30 @@
+
+nav{
+    background-image: url(../images/header-bg.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.container1{
+    margin-left: 200px;
+    transition:margin 1.5s ease-out;
+}
+.container2{
+    margin-left: 0px;
+    transition:margin 1.5s ease-out;
+}
+.container3{
+    margin-left: -200px;
+    transition:all 1.5s ease-out;
+    visibility: hidden;
+}
+.container4{
+    
+    margin-right: 200px;
+    display: block !important;
+    transition:all 1.5s ease-out;
+}
+#navToggle{
+    background-color: blue;
+}

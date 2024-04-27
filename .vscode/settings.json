@@ -1,0 +1,29 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "MyServer",
+      "username": "root",
+      "database": "pixelvide",
+      "askForPassword": true
+    },
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "users_table",
+      "database": "pixelvide",
+      "username": "postgres",
+      "password": "admin"
+    }
+  ],
+  "liveServer.settings.port": 5501
+}
